@@ -1,0 +1,382 @@
+Classification,Year,Period,Period Desc.,Aggregate Level,Is Leaf Code,Trade Flow Code,Trade Flow,Reporter Code,Reporter,Reporter ISO,Partner Code,Partner,Partner ISO,Commodity Code,Commodity,Qty Unit Code,Qty Unit,Qty,Netweight (kg),Trade Value (US$),Flag
+H0,2012,2012,2012,2,0,1,Import,4,Afghanistan,AFG,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1517526125,0
+H0,2012,2012,2012,2,0,1,Import,8,Albania,ALB,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,972118308,0
+H0,2012,2012,2012,2,0,2,Export,8,Albania,ALB,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,524032931,0
+H0,2012,2012,2012,2,0,1,Import,12,Algeria,DZA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,4936377676,0
+H0,2012,2012,2012,2,0,2,Export,12,Algeria,DZA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,70716188574,0
+H0,2012,2012,2012,2,0,1,Import,20,Andorra,AND,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,200935808,0
+H0,2012,2012,2012,2,0,2,Export,20,Andorra,AND,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,101190,0
+H0,2012,2012,2012,2,0,1,Import,28,Antigua and Barbuda,ATG,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,196976335,0
+H0,2012,2012,2012,2,0,2,Export,28,Antigua and Barbuda,ATG,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,492955,0
+H0,2012,2012,2012,2,0,3,Re-Export,28,Antigua and Barbuda,ATG,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,492955,0
+H0,2012,2012,2012,2,0,1,Import,31,Azerbaijan,AZE,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,86038664,0
+H0,2012,2012,2012,2,0,2,Export,31,Azerbaijan,AZE,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,22259197907,0
+H0,2012,2012,2012,2,0,1,Import,32,Argentina,ARG,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,8878499781,0
+H0,2012,2012,2012,2,0,2,Export,32,Argentina,ARG,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,4962074982,0
+H0,2012,2012,2012,2,0,4,Re-Import,32,Argentina,ARG,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,15951,0
+H0,2012,2012,2012,2,0,1,Import,36,Australia,AUS,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,42333320489,0
+H0,2012,2012,2012,2,0,2,Export,36,Australia,AUS,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,72890517375,0
+H0,2012,2012,2012,2,0,4,Re-Import,36,Australia,AUS,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,256446689,0
+H0,2012,2012,2012,2,0,1,Import,40,Austria,AUT,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,22236943923,0
+H0,2012,2012,2012,2,0,2,Export,40,Austria,AUT,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,5832957629,0
+H0,2012,2012,2012,2,0,1,Import,44,Bahamas,BHS,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,882290343,0
+H0,2012,2012,2012,2,0,2,Export,44,Bahamas,BHS,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,319713140,0
+H0,2012,2012,2012,2,0,3,Re-Export,44,Bahamas,BHS,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,319706320,0
+H0,2012,2012,2012,2,0,1,Import,48,Bahrain,BHR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,3970937818,0
+H0,2012,2012,2012,2,0,2,Export,48,Bahrain,BHR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,9926041675,0
+H0,2012,2012,2012,2,0,3,Re-Export,48,Bahrain,BHR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1560915,0
+H0,2012,2012,2012,2,0,4,Re-Import,48,Bahrain,BHR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,114582,0
+H0,2012,2012,2012,2,0,1,Import,51,Armenia,ARM,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,902923323,0
+H0,2012,2012,2012,2,0,2,Export,51,Armenia,ARM,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,107809631,0
+H0,2012,2012,2012,2,0,3,Re-Export,51,Armenia,ARM,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,12506673,0
+H0,2012,2012,2012,2,0,1,Import,52,Barbados,BRB,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,547165739,0
+H0,2012,2012,2012,2,0,2,Export,52,Barbados,BRB,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,169734596,0
+H0,2012,2012,2012,2,0,3,Re-Export,52,Barbados,BRB,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,137151914,0
+H0,2012,2012,2012,2,0,1,Import,56,Belgium,BEL,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,76838209390,0
+H0,2012,2012,2012,2,0,2,Export,56,Belgium,BEL,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,51613950285,0
+H0,2012,2012,2012,2,0,1,Import,60,Bermuda,BMU,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,81141557,0
+H0,2012,2012,2012,2,0,2,Export,60,Bermuda,BMU,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,608256,0
+H0,2012,2012,2012,2,0,1,Import,64,Bhutan,BTN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,182633522,0
+H0,2012,2012,2012,2,0,2,Export,64,Bhutan,BTN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,174862131,0
+H0,2012,2012,2012,2,0,1,Import,68,Bolivia (Plurinational State of),BOL,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1287277629,0
+H0,2012,2012,2012,2,0,2,Export,68,Bolivia (Plurinational State of),BOL,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,5909930743,0
+H0,2012,2012,2012,2,0,1,Import,70,Bosnia Herzegovina,BIH,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,2056962058,0
+H0,2012,2012,2012,2,0,2,Export,70,Bosnia Herzegovina,BIH,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,462566062,0
+H0,2012,2012,2012,2,0,1,Import,72,Botswana,BWA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1305902805,0
+H0,2012,2012,2012,2,0,2,Export,72,Botswana,BWA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,34175200,0
+H0,2012,2012,2012,2,0,1,Import,76,Brazil,BRA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,40187193236,0
+H0,2012,2012,2012,2,0,2,Export,76,Brazil,BRA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,26469293930,0
+H0,2012,2012,2012,2,0,1,Import,84,Belize,BLZ,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,145123540,0
+H0,2012,2012,2012,2,0,2,Export,84,Belize,BLZ,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,93150485,0
+H0,2012,2012,2012,2,0,1,Import,90,Solomon Isds,SLB,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,133170135,0
+H0,2012,2012,2012,2,0,2,Export,90,Solomon Isds,SLB,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,13355,0
+H0,2012,2012,2012,2,0,1,Import,96,Brunei Darussalam,BRN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,353625333,0
+H0,2012,2012,2012,2,0,2,Export,96,Brunei Darussalam,BRN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,12447951922,0
+H0,2012,2012,2012,2,0,1,Import,100,Bulgaria,BGR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,8141855032,0
+H0,2012,2012,2012,2,0,2,Export,100,Bulgaria,BGR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,4317336666,0
+H0,2012,2012,2012,2,0,1,Import,108,Burundi,BDI,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,170150426,0
+H0,2012,2012,2012,2,0,2,Export,108,Burundi,BDI,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,525965,0
+H0,2012,2012,2012,2,0,3,Re-Export,108,Burundi,BDI,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,525749,0
+H0,2012,2012,2012,2,0,1,Import,112,Belarus,BLR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,17869989300,0
+H0,2012,2012,2012,2,0,2,Export,112,Belarus,BLR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,16390888100,0
+H0,2012,2012,2012,2,0,1,Import,116,Cambodia,KHM,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,984480391,0
+H0,2012,2012,2012,2,0,2,Export,116,Cambodia,KHM,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,852158,0
+H0,2012,2012,2012,2,0,1,Import,120,Cameroon,CMR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1977795745,0
+H0,2012,2012,2012,2,0,2,Export,120,Cameroon,CMR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,2374309759,0
+H0,2012,2012,2012,2,0,1,Import,124,Canada,CAN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,51440583915,0
+H0,2012,2012,2012,2,0,2,Export,124,Canada,CAN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,116414784754,0
+H0,2012,2012,2012,2,0,4,Re-Import,124,Canada,CAN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,18281593,0
+H0,2012,2012,2012,2,0,1,Import,132,Cabo Verde,CPV,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,112205818,0
+H0,2012,2012,2012,2,0,1,Import,140,Central African Rep.,CAF,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,3299390,0
+H0,2012,2012,2012,2,0,2,Export,140,Central African Rep.,CAF,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,849685,0
+H0,2012,2012,2012,2,0,1,Import,144,Sri Lanka,LKA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,3829995951,0
+H0,2012,2012,2012,2,0,2,Export,144,Sri Lanka,LKA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,33221974,0
+H0,2012,2012,2012,2,0,3,Re-Export,144,Sri Lanka,LKA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,211886,0
+H0,2012,2012,2012,2,0,1,Import,152,Chile,CHL,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,17854040488,0
+H0,2012,2012,2012,2,0,2,Export,152,Chile,CHL,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,703068898,0
+H0,2012,2012,2012,2,0,1,Import,156,China,CHN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,313066987739,0
+H0,2012,2012,2012,2,0,2,Export,156,China,CHN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,31017956925,0
+H0,2012,2012,2012,2,0,4,Re-Import,156,China,CHN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1615734,0
+H0,2012,2012,2012,2,0,1,Import,170,Colombia,COL,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,5661810401,0
+H0,2012,2012,2012,2,0,2,Export,170,Colombia,COL,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,39617935715,0
+H0,2012,2012,2012,2,0,4,Re-Import,170,Colombia,COL,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,7111041,0
+H0,2012,2012,2012,2,0,1,Import,178,Congo,COG,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,79789890,0
+H0,2012,2012,2012,2,0,2,Export,178,Congo,COG,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,5868356033,0
+H0,2012,2012,2012,2,0,1,Import,188,Costa Rica,CRI,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,2325792018,0
+H0,2012,2012,2012,2,0,2,Export,188,Costa Rica,CRI,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,4743440,0
+H0,2012,2012,2012,2,0,1,Import,191,Croatia,HRV,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,4825875886,0
+H0,2012,2012,2012,2,0,2,Export,191,Croatia,HRV,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1691366978,0
+H0,2012,2012,2012,2,0,1,Import,196,Cyprus,CYP,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,2224552156,0
+H0,2012,2012,2012,2,0,2,Export,196,Cyprus,CYP,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,83394772,0
+H0,2012,2012,2012,2,0,3,Re-Export,196,Cyprus,CYP,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,83394772,0
+H0,2012,2012,2012,2,0,1,Import,203,Czech Rep.,CZE,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,14294434154,0
+H0,2012,2012,2012,2,0,2,Export,203,Czech Rep.,CZE,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,5912074745,0
+H0,2012,2012,2012,2,0,1,Import,204,Benin,BEN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,487238645,0
+H0,2012,2012,2012,2,0,2,Export,204,Benin,BEN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,37552987,0
+H0,2012,2012,2012,2,0,3,Re-Export,204,Benin,BEN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,37537991,0
+H0,2012,2012,2012,2,0,1,Import,208,Denmark,DNK,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,9538045844,0
+H0,2012,2012,2012,2,0,2,Export,208,Denmark,DNK,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,10651868938,0
+H0,2012,2012,2012,2,0,1,Import,212,Dominica,DMA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,47647898,0
+H0,2012,2012,2012,2,0,2,Export,212,Dominica,DMA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,3767,0
+H0,2012,2012,2012,2,0,3,Re-Export,212,Dominica,DMA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,3767,0
+H0,2012,2012,2012,2,0,1,Import,214,Dominican Rep.,DOM,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,4508321736,0
+H0,2012,2012,2012,2,0,2,Export,214,Dominican Rep.,DOM,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,454655837,0
+H0,2012,2012,2012,2,0,1,Import,218,Ecuador,ECU,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,5642608902,0
+H0,2012,2012,2012,2,0,2,Export,218,Ecuador,ECU,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,13797475655,0
+H0,2012,2012,2012,2,0,1,Import,222,El Salvador,SLV,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1948760316,0
+H0,2012,2012,2012,2,0,2,Export,222,El Salvador,SLV,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,186063328,0
+H0,2012,2012,2012,2,0,1,Import,231,Ethiopia,ETH,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,2480489950,0
+H0,2012,2012,2012,2,0,2,Export,231,Ethiopia,ETH,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,94070,0
+H0,2012,2012,2012,2,0,3,Re-Export,231,Ethiopia,ETH,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,30,0
+H0,2012,2012,2012,2,0,1,Import,233,Estonia,EST,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,3537615570,0
+H0,2012,2012,2012,2,0,2,Export,233,Estonia,EST,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,2929527587,0
+H0,2012,2012,2012,2,0,4,Re-Import,233,Estonia,EST,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,19583,0
+H0,2012,2012,2012,2,0,1,Import,242,Fiji,FJI,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,687599686,0
+H0,2012,2012,2012,2,0,2,Export,242,Fiji,FJI,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,339619985,0
+H0,2012,2012,2012,2,0,3,Re-Export,242,Fiji,FJI,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,339314554,0
+H0,2012,2012,2012,2,0,1,Import,246,Finland,FIN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,16703269451,0
+H0,2012,2012,2012,2,0,2,Export,246,Finland,FIN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,7970144331,0
+H0,2012,2012,2012,2,0,1,Import,251,France,FRA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,114935777050,0
+H0,2012,2012,2012,2,0,2,Export,251,France,FRA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,24952060533,0
+H0,2012,2012,2012,2,0,4,Re-Import,251,France,FRA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,45401147,0
+H0,2012,2012,2012,2,0,1,Import,258,French Polynesia,PYF,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,297095305,0
+H0,2012,2012,2012,2,0,2,Export,258,French Polynesia,PYF,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,14852,0
+H0,2012,2012,2012,2,0,1,Import,268,Georgia,GEO,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1397902496,0
+H0,2012,2012,2012,2,0,2,Export,268,Georgia,GEO,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,50340088,0
+H0,2012,2012,2012,2,0,3,Re-Export,268,Georgia,GEO,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,2880301,0
+H0,2012,2012,2012,2,0,1,Import,270,Gambia,GMB,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,102752517,0
+H0,2012,2012,2012,2,0,2,Export,270,Gambia,GMB,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,6251375,0
+H0,2012,2012,2012,2,0,3,Re-Export,270,Gambia,GMB,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,6251375,0
+H0,2012,2012,2012,2,0,1,Import,275,State of Palestine,PSE,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1440782884,0
+H0,2012,2012,2012,2,0,2,Export,275,State of Palestine,PSE,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,2541823,0
+H0,2012,2012,2012,2,0,3,Re-Export,275,State of Palestine,PSE,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1197400,0
+H0,2012,2012,2012,2,0,1,Import,276,Germany,DEU,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,173150691155,0
+H0,2012,2012,2012,2,0,2,Export,276,Germany,DEU,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,38363021504,0
+H0,2012,2012,2012,2,0,1,Import,288,Ghana,GHA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,550967915,0
+H0,2012,2012,2012,2,0,2,Export,288,Ghana,GHA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,4565057680,0
+H0,2012,2012,2012,2,0,1,Import,296,Kiribati,KIR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,17891411,0
+H0,2012,2012,2012,2,0,2,Export,296,Kiribati,KIR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,10,0
+H0,2012,2012,2012,2,0,1,Import,300,Greece,GRC,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,23500233628,0
+H0,2012,2012,2012,2,0,2,Export,300,Greece,GRC,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,13690514206,0
+H0,2012,2012,2012,2,0,1,Import,304,Greenland,GRL,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,215852365,0
+H0,2012,2012,2012,2,0,2,Export,304,Greenland,GRL,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,639,0
+H0,2012,2012,2012,2,0,1,Import,320,Guatemala,GTM,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,3352705217,0
+H0,2012,2012,2012,2,0,2,Export,320,Guatemala,GTM,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,400847762,0
+H0,2012,2012,2012,2,0,1,Import,328,Guyana,GUY,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,498475654,0
+H0,2012,2012,2012,2,0,2,Export,328,Guyana,GUY,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,7002,0
+H0,2012,2012,2012,2,0,3,Re-Export,328,Guyana,GUY,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,6359,0
+H0,2012,2012,2012,2,0,1,Import,340,Honduras,HND,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,2182537231,0
+H0,2012,2012,2012,2,0,2,Export,340,Honduras,HND,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,183760343,0
+H0,2012,2012,2012,2,0,1,Import,344,"China, Hong Kong SAR",HKG,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,18329666689,0
+H0,2012,2012,2012,2,0,2,Export,344,"China, Hong Kong SAR",HKG,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1107091428,0
+H0,2012,2012,2012,2,0,3,Re-Export,344,"China, Hong Kong SAR",HKG,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,864640377,0
+H0,2012,2012,2012,2,0,1,Import,348,Hungary,HUN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,11954922000,0
+H0,2012,2012,2012,2,0,2,Export,348,Hungary,HUN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,4052593000,0
+H0,2012,2012,2012,2,0,1,Import,352,Iceland,ISL,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,715994573,0
+H0,2012,2012,2012,2,0,2,Export,352,Iceland,ISL,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,101950935,0
+H0,2012,2012,2012,2,0,1,Import,360,Indonesia,IDN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,42764190899,0
+H0,2012,2012,2012,2,0,2,Export,360,Indonesia,IDN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,63385110545,0
+H0,2012,2012,2012,2,0,4,Re-Import,360,Indonesia,IDN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,589326,0
+H0,2012,2012,2012,2,0,2,Export,368,Iraq,IRQ,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,94133143482,0
+H0,2012,2012,2012,2,0,1,Import,372,Ireland,IRL,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,8863069724,0
+H0,2012,2012,2012,2,0,2,Export,372,Ireland,IRL,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,2114903925,0
+H0,2012,2012,2012,2,0,1,Import,376,Israel,ISR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,16079260000,0
+H0,2012,2012,2012,2,0,2,Export,376,Israel,ISR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1073886000,0
+H0,2012,2012,2012,2,0,1,Import,381,Italy,ITA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,109124314830,0
+H0,2012,2012,2012,2,0,2,Export,381,Italy,ITA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,27989216186,0
+H0,2012,2012,2012,2,0,3,Re-Export,381,Italy,ITA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,5349387683,0
+H0,2012,2012,2012,2,0,4,Re-Import,381,Italy,ITA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,280423,0
+H0,2012,2012,2012,2,0,1,Import,384,Côte d'Ivoire,CIV,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,3025394031,0
+H0,2012,2012,2012,2,0,2,Export,384,Côte d'Ivoire,CIV,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,3159900303,0
+H0,2012,2012,2012,2,0,1,Import,388,Jamaica,JAM,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,2385842244,0
+H0,2012,2012,2012,2,0,2,Export,388,Jamaica,JAM,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,388203400,0
+H0,2012,2012,2012,2,0,3,Re-Export,388,Jamaica,JAM,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,182510,0
+H0,2012,2012,2012,2,0,1,Import,392,Japan,JPN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,302406259941,0
+H0,2012,2012,2012,2,0,2,Export,392,Japan,JPN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,13457131465,0
+H0,2012,2012,2012,2,0,1,Import,398,Kazakhstan,KAZ,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,4814039040,0
+H0,2012,2012,2012,2,0,2,Export,398,Kazakhstan,KAZ,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,64485650420,0
+H0,2012,2012,2012,2,0,1,Import,400,Jordan,JOR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,6701181127,0
+H0,2012,2012,2012,2,0,2,Export,400,Jordan,JOR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,23253006,0
+H0,2012,2012,2012,2,0,3,Re-Export,400,Jordan,JOR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,4404478,0
+H0,2012,2012,2012,2,0,1,Import,410,Rep. of Korea,KOR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,186191050261,0
+H0,2012,2012,2012,2,0,2,Export,410,Rep. of Korea,KOR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,57492603164,0
+H0,2012,2012,2012,2,0,1,Import,417,Kyrgyzstan,KGZ,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1166585118,0
+H0,2012,2012,2012,2,0,2,Export,417,Kyrgyzstan,KGZ,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,176680787,0
+H0,2012,2012,2012,2,0,3,Re-Export,417,Kyrgyzstan,KGZ,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1062565,0
+H0,2012,2012,2012,2,0,1,Import,422,Lebanon,LBN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,5894186894,0
+H0,2012,2012,2012,2,0,2,Export,422,Lebanon,LBN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,89721919,0
+H0,2012,2012,2012,2,0,1,Import,426,Lesotho,LSO,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,195667551,0
+H0,2012,2012,2012,2,0,2,Export,426,Lesotho,LSO,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,788060,0
+H0,2012,2012,2012,2,0,1,Import,428,Latvia,LVA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,2734024063,0
+H0,2012,2012,2012,2,0,2,Export,428,Latvia,LVA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,997544807,0
+H0,2012,2012,2012,2,0,1,Import,440,Lithuania,LTU,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,10893584244,0
+H0,2012,2012,2012,2,0,2,Export,440,Lithuania,LTU,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,7265496292,0
+H0,2012,2012,2012,2,0,1,Import,442,Luxembourg,LUX,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,2841677677,0
+H0,2012,2012,2012,2,0,2,Export,442,Luxembourg,LUX,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,124052934,0
+H0,2012,2012,2012,2,0,3,Re-Export,442,Luxembourg,LUX,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,50334,0
+H0,2012,2012,2012,2,0,4,Re-Import,442,Luxembourg,LUX,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,100742,0
+H0,2012,2012,2012,2,0,1,Import,446,"China, Macao SAR",MAC,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,953891558,0
+H0,2012,2012,2012,2,0,1,Import,450,Madagascar,MDG,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,615976655,0
+H0,2012,2012,2012,2,0,2,Export,450,Madagascar,MDG,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,82591301,0
+H0,2012,2012,2012,2,0,3,Re-Export,450,Madagascar,MDG,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,99952,0
+H0,2012,2012,2012,2,0,1,Import,458,Malaysia,MYS,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,27842449554,0
+H0,2012,2012,2012,2,0,2,Export,458,Malaysia,MYS,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,46431648562,0
+H0,2012,2012,2012,2,0,4,Re-Import,458,Malaysia,MYS,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,11664440,0
+H0,2012,2012,2012,2,0,1,Import,462,Maldives,MDV,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,487067955,0
+H0,2012,2012,2012,2,0,2,Export,462,Maldives,MDV,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,55443,0
+H0,2012,2012,2012,2,0,1,Import,466,Mali,MLI,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,993706754,0
+H0,2012,2012,2012,2,0,2,Export,466,Mali,MLI,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,16276661,0
+H0,2012,2012,2012,2,0,3,Re-Export,466,Mali,MLI,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,13914811,0
+H0,2012,2012,2012,2,0,1,Import,470,Malta,MLT,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,3576204037,0
+H0,2012,2012,2012,2,0,2,Export,470,Malta,MLT,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,2545226087,0
+H0,2012,2012,2012,2,0,1,Import,478,Mauritania,MRT,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,790491454,0
+H0,2012,2012,2012,2,0,2,Export,478,Mauritania,MRT,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,345117142,0
+H0,2012,2012,2012,2,0,1,Import,480,Mauritius,MUS,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1213354714,0
+H0,2012,2012,2012,2,0,2,Export,480,Mauritius,MUS,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1958501,0
+H0,2012,2012,2012,2,0,3,Re-Export,480,Mauritius,MUS,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1955508,0
+H0,2012,2012,2012,2,0,1,Import,484,Mexico,MEX,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,33342594986,0
+H0,2012,2012,2012,2,0,2,Export,484,Mexico,MEX,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,52100321086,0
+H0,2012,2012,2012,2,0,1,Import,490,"Other Asia, nes",,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,70041310333,0
+H0,2012,2012,2012,2,0,2,Export,490,"Other Asia, nes",,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,21543133448,0
+H0,2012,2012,2012,2,0,3,Re-Export,490,"Other Asia, nes",,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,2792557744,0
+H0,2012,2012,2012,2,0,4,Re-Import,490,"Other Asia, nes",,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,127448,0
+H0,2012,2012,2012,2,0,1,Import,498,Rep. of Moldova,MDA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,709470378,0
+H0,2012,2012,2012,2,0,2,Export,498,Rep. of Moldova,MDA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,15503769,0
+H0,2012,2012,2012,2,0,3,Re-Export,498,Rep. of Moldova,MDA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,11192535,0
+H0,2012,2012,2012,2,0,1,Import,499,Montenegro,MNE,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,429625348,0
+H0,2012,2012,2012,2,0,2,Export,499,Montenegro,MNE,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,64831264,0
+H0,2012,2012,2012,2,0,1,Import,500,Montserrat,MSR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,12341653,0
+H0,2012,2012,2012,2,0,2,Export,500,Montserrat,MSR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1656,0
+H0,2012,2012,2012,2,0,3,Re-Export,500,Montserrat,MSR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1656,0
+H0,2012,2012,2012,2,0,1,Import,504,Morocco,MAR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,12356543727,0
+H0,2012,2012,2012,2,0,2,Export,504,Morocco,MAR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1234594124,0
+H0,2012,2012,2012,2,0,1,Import,508,Mozambique,MOZ,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1472894810,0
+H0,2012,2012,2012,2,0,2,Export,508,Mozambique,MOZ,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,964860111,0
+H0,2012,2012,2012,2,0,1,Import,512,Oman,OMN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,2494562441,0
+H0,2012,2012,2012,2,0,2,Export,512,Oman,OMN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,39304161690,0
+H0,2012,2012,2012,2,0,3,Re-Export,512,Oman,OMN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1151171938,0
+H0,2012,2012,2012,2,0,1,Import,516,Namibia,NAM,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,861055967,0
+H0,2012,2012,2012,2,0,2,Export,516,Namibia,NAM,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,48197464,0
+H0,2012,2012,2012,2,0,3,Re-Export,516,Namibia,NAM,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,887,0
+H0,2012,2012,2012,2,0,4,Re-Import,516,Namibia,NAM,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,2068,0
+H0,2012,2012,2012,2,0,1,Import,524,Nepal,NPL,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1353363938,0
+H0,2012,2012,2012,2,0,2,Export,524,Nepal,NPL,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,110962,0
+H0,2012,2012,2012,2,0,1,Import,528,Netherlands,NLD,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,115112893040,0
+H0,2012,2012,2012,2,0,2,Export,528,Netherlands,NLD,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,79893106831,0
+H0,2012,2012,2012,2,0,1,Import,533,Aruba,ABW,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,96374312,0
+H0,2012,2012,2012,2,0,2,Export,533,Aruba,ABW,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,81309,0
+H0,2012,2012,2012,2,0,1,Import,540,New Caledonia,NCL,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,747255731,0
+H0,2012,2012,2012,2,0,2,Export,540,New Caledonia,NCL,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,213502,0
+H0,2012,2012,2012,2,0,1,Import,554,New Zealand,NZL,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,6760936513,0
+H0,2012,2012,2012,2,0,2,Export,554,New Zealand,NZL,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1774080451,0
+H0,2012,2012,2012,2,0,3,Re-Export,554,New Zealand,NZL,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,2912843,0
+H0,2012,2012,2012,2,0,4,Re-Import,554,New Zealand,NZL,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,128753,0
+H0,2012,2012,2012,2,0,1,Import,558,Nicaragua,NIC,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1470313461,0
+H0,2012,2012,2012,2,0,2,Export,558,Nicaragua,NIC,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,50496509,0
+H0,2012,2012,2012,2,0,1,Import,562,Niger,NER,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,58935775,0
+H0,2012,2012,2012,2,0,2,Export,562,Niger,NER,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,236768403,0
+H0,2012,2012,2012,2,0,3,Re-Export,562,Niger,NER,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,8292890,0
+H0,2012,2012,2012,2,0,1,Import,566,Nigeria,NGA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,850063924,0
+H0,2012,2012,2012,2,0,2,Export,566,Nigeria,NGA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,120304234615,0
+H0,2012,2012,2012,2,0,1,Import,579,Norway,NOR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,5442434219,0
+H0,2012,2012,2012,2,0,2,Export,579,Norway,NOR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,112369841945,0
+H0,2012,2012,2012,2,0,1,Import,583,FS Micronesia,FSM,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,57247970,0
+H0,2012,2012,2012,2,0,1,Import,585,Palau,PLW,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,50879689,0
+H0,2012,2012,2012,2,0,2,Export,585,Palau,PLW,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,10315,0
+H0,2012,2012,2012,2,0,1,Import,586,Pakistan,PAK,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,15946814409,0
+H0,2012,2012,2012,2,0,2,Export,586,Pakistan,PAK,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,330676279,0
+H0,2012,2012,2012,2,0,3,Re-Export,586,Pakistan,PAK,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,62915,0
+H0,2012,2012,2012,2,0,1,Import,591,Panama,PAN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,2843634526,0
+H0,2012,2012,2012,2,0,2,Export,591,Panama,PAN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,618657,0
+H0,2012,2012,2012,2,0,4,Re-Import,591,Panama,PAN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,2473894587,0
+H0,2012,2012,2012,2,0,1,Import,598,Papua New Guinea,PNG,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1449897999,0
+H0,2012,2012,2012,2,0,2,Export,598,Papua New Guinea,PNG,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,132114591,0
+H0,2012,2012,2012,2,0,4,Re-Import,598,Papua New Guinea,PNG,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,14219434,0
+H0,2012,2012,2012,2,0,1,Import,600,Paraguay,PRY,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1840323329,0
+H0,2012,2012,2012,2,0,2,Export,600,Paraguay,PRY,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,2270181849,0
+H0,2012,2012,2012,2,0,1,Import,604,Peru,PER,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,6086881856,0
+H0,2012,2012,2012,2,0,2,Export,604,Peru,PER,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,5364266635,0
+H0,2012,2012,2012,2,0,1,Import,608,Philippines,PHL,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,14313273343,0
+H0,2012,2012,2012,2,0,2,Export,608,Philippines,PHL,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1262965171,0
+H0,2012,2012,2012,2,0,1,Import,616,Poland,POL,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,26173078243,0
+H0,2012,2012,2012,2,0,2,Export,616,Poland,POL,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,8985316657,0
+H0,2012,2012,2012,2,0,1,Import,620,Portugal,PRT,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,15052871758,0
+H0,2012,2012,2012,2,0,2,Export,620,Portugal,PRT,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,4839103672,0
+H0,2012,2012,2012,2,0,4,Re-Import,620,Portugal,PRT,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,594039,0
+H0,2012,2012,2012,2,0,1,Import,634,Qatar,QAT,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,328074071,0
+H0,2012,2012,2012,2,0,2,Export,634,Qatar,QAT,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,117028946013,0
+H0,2012,2012,2012,2,0,3,Re-Export,634,Qatar,QAT,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,2466659,0
+H0,2012,2012,2012,2,0,1,Import,642,Romania,ROU,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,8527932101,0
+H0,2012,2012,2012,2,0,2,Export,642,Romania,ROU,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,3202220347,0
+H0,2012,2012,2012,2,0,1,Import,643,Russian Federation,RUS,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,4053994300,0
+H0,2012,2012,2012,2,0,2,Export,643,Russian Federation,RUS,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,368853370252,0
+H0,2012,2012,2012,2,0,1,Import,646,Rwanda,RWA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,134878583,0
+H0,2012,2012,2012,2,0,2,Export,646,Rwanda,RWA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,52327700,0
+H0,2012,2012,2012,2,0,3,Re-Export,646,Rwanda,RWA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,52227809,0
+H0,2012,2012,2012,2,0,1,Import,670,Saint Vincent and the Grenadines,VCT,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,114989177,0
+H0,2012,2012,2012,2,0,2,Export,670,Saint Vincent and the Grenadines,VCT,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,479849,0
+H0,2012,2012,2012,2,0,3,Re-Export,670,Saint Vincent and the Grenadines,VCT,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,479032,0
+H0,2012,2012,2012,2,0,1,Import,678,Sao Tome and Principe,STP,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,36572527,0
+H0,2012,2012,2012,2,0,2,Export,678,Sao Tome and Principe,STP,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,45137,0
+H0,2012,2012,2012,2,0,1,Import,682,Saudi Arabia,SAU,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,671461106,0
+H0,2012,2012,2012,2,0,2,Export,682,Saudi Arabia,SAU,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,337483989588,0
+H0,2012,2012,2012,2,0,3,Re-Export,682,Saudi Arabia,SAU,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,3601605,0
+H0,2012,2012,2012,2,0,1,Import,686,Senegal,SEN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1845811977,0
+H0,2012,2012,2012,2,0,2,Export,686,Senegal,SEN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,360803508,0
+H0,2012,2012,2012,2,0,1,Import,688,Serbia,SRB,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,3319951731,0
+H0,2012,2012,2012,2,0,2,Export,688,Serbia,SRB,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,401455285,0
+H0,2012,2012,2012,2,0,1,Import,699,India,IND,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,185696087555,0
+H0,2012,2012,2012,2,0,2,Export,699,India,IND,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,54380880389,0
+H0,2012,2012,2012,2,0,1,Import,702,Singapore,SGP,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,123876187784,0
+H0,2012,2012,2012,2,0,2,Export,702,Singapore,SGP,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,75584895838,0
+H0,2012,2012,2012,2,0,1,Import,703,Slovakia,SVK,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,10239877985,0
+H0,2012,2012,2012,2,0,2,Export,703,Slovakia,SVK,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,4725013694,0
+H0,2012,2012,2012,2,0,4,Re-Import,703,Slovakia,SVK,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,34340606,0
+H0,2012,2012,2012,2,0,1,Import,704,Viet Nam,VNM,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,11501799861,0
+H0,2012,2012,2012,2,0,2,Export,704,Viet Nam,VNM,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,11353447955,0
+H0,2012,2012,2012,2,0,1,Import,705,Slovenia,SVN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,4852711911,0
+H0,2012,2012,2012,2,0,2,Export,705,Slovenia,SVN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1745486746,0
+H0,2012,2012,2012,2,0,4,Re-Import,705,Slovenia,SVN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,9063,0
+H0,2012,2012,2012,2,0,1,Import,710,South Africa,ZAF,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,22863636669,0
+H0,2012,2012,2012,2,0,2,Export,710,South Africa,ZAF,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,11333973923,0
+H0,2012,2012,2012,2,0,4,Re-Import,710,South Africa,ZAF,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,29283154,0
+H0,2012,2012,2012,2,0,1,Import,716,Zimbabwe,ZWE,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1514682990,0
+H0,2012,2012,2012,2,0,2,Export,716,Zimbabwe,ZWE,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,37816564,0
+H0,2012,2012,2012,2,0,1,Import,724,Spain,ESP,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,79663200361,0
+H0,2012,2012,2012,2,0,2,Export,724,Spain,ESP,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,21150346500,0
+H0,2012,2012,2012,2,0,1,Import,729,Sudan,SDN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,734371158,0
+H0,2012,2012,2012,2,0,2,Export,729,Sudan,SDN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,256150000,0
+H0,2012,2012,2012,2,0,3,Re-Export,729,Sudan,SDN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,3000,0
+H0,2012,2012,2012,2,0,1,Import,740,Suriname,SUR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,268784036,0
+H0,2012,2012,2012,2,0,2,Export,740,Suriname,SUR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,129874115,0
+H0,2012,2012,2012,2,0,3,Re-Export,740,Suriname,SUR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,5180607,0
+H0,2012,2012,2012,2,0,1,Import,752,Sweden,SWE,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,26516197667,0
+H0,2012,2012,2012,2,0,2,Export,752,Sweden,SWE,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,16182506738,0
+H0,2012,2012,2012,2,0,1,Import,757,Switzerland,CHE,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,18852437826,0
+H0,2012,2012,2012,2,0,2,Export,757,Switzerland,CHE,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,7321941595,0
+H0,2012,2012,2012,2,0,1,Import,764,Thailand,THA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,47859262096,0
+H0,2012,2012,2012,2,0,2,Export,764,Thailand,THA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,14939921373,0
+H0,2012,2012,2012,2,0,4,Re-Import,764,Thailand,THA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,15231415,0
+H0,2012,2012,2012,2,0,1,Import,768,Togo,TGO,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,362424745,0
+H0,2012,2012,2012,2,0,2,Export,768,Togo,TGO,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,65166329,0
+H0,2012,2012,2012,2,0,3,Re-Export,768,Togo,TGO,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,51504091,0
+H0,2012,2012,2012,2,0,4,Re-Import,768,Togo,TGO,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,65061,0
+H0,2012,2012,2012,2,0,1,Import,776,Tonga,TON,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,47389133,0
+H0,2012,2012,2012,2,0,2,Export,776,Tonga,TON,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1223,0
+H0,2012,2012,2012,2,0,3,Re-Export,776,Tonga,TON,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1136,0
+H0,2012,2012,2012,2,0,1,Import,788,Tunisia,TUN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,4257502628,0
+H0,2012,2012,2012,2,0,2,Export,788,Tunisia,TUN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,2854184357,0
+H0,2012,2012,2012,2,0,1,Import,792,Turkey,TUR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,20646314919,0
+H0,2012,2012,2012,2,0,2,Export,792,Turkey,TUR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,7478408149,0
+H0,2012,2012,2012,2,0,1,Import,796,Turks and Caicos Isds,TCA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,75963106,0
+H0,2012,2012,2012,2,0,2,Export,796,Turks and Caicos Isds,TCA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1240,0
+H0,2012,2012,2012,2,0,1,Import,800,Uganda,UGA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1366560570,0
+H0,2012,2012,2012,2,0,2,Export,800,Uganda,UGA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,156382064,0
+H0,2012,2012,2012,2,0,1,Import,804,Ukraine,UKR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,26192812570,0
+H0,2012,2012,2012,2,0,2,Export,804,Ukraine,UKR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,3639727763,0
+H0,2012,2012,2012,2,0,1,Import,807,TFYR of Macedonia,MKD,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1392305816,0
+H0,2012,2012,2012,2,0,2,Export,807,TFYR of Macedonia,MKD,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,258515092,0
+H0,2012,2012,2012,2,0,1,Import,818,Egypt,EGY,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,13061079189,0
+H0,2012,2012,2012,2,0,2,Export,818,Egypt,EGY,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,8871957040,0
+H0,2012,2012,2012,2,0,1,Import,826,United Kingdom,GBR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,95395962649,0
+H0,2012,2012,2012,2,0,2,Export,826,United Kingdom,GBR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,65796091544,0
+H0,2012,2012,2012,2,0,3,Re-Export,826,United Kingdom,GBR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,53467355,0
+H0,2012,2012,2012,2,0,4,Re-Import,826,United Kingdom,GBR,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,94812,0
+H0,2012,2012,2012,2,0,1,Import,834,United Rep. of Tanzania,TZA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,3827651379,0
+H0,2012,2012,2012,2,0,2,Export,834,United Rep. of Tanzania,TZA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,69803330,0
+H0,2012,2012,2012,2,0,1,Import,842,USA,USA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,423991873335,0
+H0,2012,2012,2012,2,0,2,Export,842,USA,USA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,137332528657,0
+H0,2012,2012,2012,2,0,3,Re-Export,842,USA,USA,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1086488212,0
+H0,2012,2012,2012,2,0,1,Import,858,Uruguay,URY,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,3140453745,0
+H0,2012,2012,2012,2,0,2,Export,858,Uruguay,URY,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,95266218,0
+H0,2012,2012,2012,2,0,4,Re-Import,858,Uruguay,URY,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,1504,0
+H0,2012,2012,2012,2,0,1,Import,862,Venezuela,VEN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,570928315,0
+H0,2012,2012,2012,2,0,2,Export,862,Venezuela,VEN,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,93570918584,0
+H0,2012,2012,2012,2,0,1,Import,882,Samoa,WSM,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,79770583,0
+H0,2012,2012,2012,2,0,2,Export,882,Samoa,WSM,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,17632598,0
+H0,2012,2012,2012,2,0,3,Re-Export,882,Samoa,WSM,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,17625120,0
+H0,2012,2012,2012,2,0,1,Import,887,Yemen,YEM,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,3055088954,0
+H0,2012,2012,2012,2,0,2,Export,887,Yemen,YEM,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,6325457378,0
+H0,2012,2012,2012,2,0,3,Re-Export,887,Yemen,YEM,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,342854,0
+H0,2012,2012,2012,2,0,1,Import,894,Zambia,ZMB,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,933905245,0
+H0,2012,2012,2012,2,0,2,Export,894,Zambia,ZMB,0,World,WLD,27,"Mineral fuels, oils, distillation products, etc",1,No Quantity,,,120814970,0

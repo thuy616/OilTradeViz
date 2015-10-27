@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Global Oil Products Imports &amp; Exports</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="./lib/d3.min.js"></script>
+	<script src="./data/countries.js"></script>
+	<script src="./data/continent_colors.js"></script>
+	<script src="./data/continents.js"></script>
+	<script src="./data/pop_2014.js"></script>
+	<script type="text/javascript">
+	//<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js">
+	var countryCodeMap = {}, countryContMap = {}, countryPop2014Map = {};
+			
+			var selectedCountries = [], selectedImports = [], selectedExports = [];
+			var exports = {}, imports = {};
+			var totalImport = 0, totalExport = 0;
+			var data = [];
+			var continentsArray = [], colorsArray = [];
+			var conts = {"AS" : "Asia", "EU": "Europe", "NA" : "North America", "SA" : "South America", "OC" : "Oceania", "AF" : "Africa", "Others" : "Others"};
+
+			loadData();
+
+			function loadData(){
+
+				// load countries code and countries mapping
+				country_codes.forEach(function (code) {
+					countryCodeMap[code.ISO3166_1_Alpha_3] = code.name;
+				});
+
+				// load population data
+				populations2014.forEach(function(item) {
+					countryPop2014Map[item.country_code] = item.population;
+				});
+
+				// load continent data
+				country_continents.forEach(function(item) {
+					countryContMap[item.isoAlpha3] = item.continent;
+				});
+
+				// load continents array
+				for (var key in continent_colors) {
+					continentsArray.push(key);
+					colorsArray.push(continent_colors[key]);
+				}
+
+				console.log("continents loaded: " + continentsArray);
+				console.log("colors loaded: " + colorsArray);
+
+				// load imports and exports data
+				$.getJSON( "data/2014_clean.json", function( data ) {
+					var s = data.dataset;
+					for (var i = 0; i<s.length; i++) {
+						var e = s[i];
+						var country = e.rt3ISO;
+						var rgDesc = e.rgDesc;
+						var value = e.TradeValue;
+						if (rgDesc === 'Import') {
+							imports[country] = value;
+						}
+						else if (rgDesc === "Export") {
+							exports[country] = value;
+						}
+					}
+
+					mergeData();
+					visualize();
+
+					// redraw on resizing windows
+					window.onresize = onWindowsResize();
+
+					}
+					);
+			}
+
+			function mergeData() {
+				
+				console.log("start merging data... country name, country code ISO 3 Alpha, import value, export value, continent, population, continent color codes");
+
+				for (var key in imports) {
+					var country = new Object();
+					country.code = key;
+					country.name = countryCodeMap[country.code];
+					country.importValue = imports[country.code];
+					country.exportValue = exports[country.code];
+					country.continent = countryContMap[country.code];
+					country.population = countryPop2014Map[country.code];
+					totalImport += country.importValue;
+					totalExport += country.exportValue;
+
+					data.push(country);
+
+					}
+
+					console.log("total import value: $" + totalImport);
+					console.log("total export value: $" + totalExport);
+
+					data.forEach(function(d) {
+						console.log("Full value: " + d.name + ", export value: " + d.exportValue + ", import value: " + d.importValue);
+					})
+
+			}
+
+			function getSortedKeysDescending(obj) {
+				var keys = []; for(var key in obj) keys.push(key);
+				return keys.sort(function(a,b){return obj[b]-obj[a]});
+			}
+			
+			
+			function selectData(country) {
+				for (var c = 0; c <countries.length; c++) {
+					if (country === countries[c]) {
+						selectedCountries.push(country);
+						selectedExports.push(exports[c]);
+						selectedImports.push(imports[c]);
+						break;
+					}
+				}
+			}
+
+			function visualize() {
+				
+				  visualizeImportData();
+				  visualizeExportData();
+
+
+			}
+
+			function visualizeImportData() {
+				
+				// sort data filter = import value
+				
+				sortData(data, "importValue");
+
+				var pad = 10;
+				var h = window.innerHeight-pad;
+				var w = (window.innerWidth-pad)/2;
+				var size = 680;
+				var r = size/8;
+				
+				var animTime = 1500;
+
+				var sqrtScalePop = d3.scale.sqrt()
+			    	.domain([0, d3.max(data, function(d){ return d.population })])
+			    	.range([0, r*2]);
+
+			    var colorScale = d3.scale.ordinal()
+				  .domain(continentsArray)
+				  .range(colorsArray);
+
+
+				  console.log("checkpoint 1: color test " + colorScale("AS"));
+
+				  //bars
+				  var svg = d3.select("#import_pie").append("svg").attr("height", h).attr("width", w)
+				  .style("margin", pad/2+"px 0 0 "+pad/2+"px")
+				  .attr("align","center");
+
+				  var pie = d3.layout.pie()
+				    .value(function(d) { return d.importValue; })
+				    .sort(null);
+
+				  var arc_zero = d3.svg.arc().outerRadius(r-10).innerRadius(r-20);
+				  
+				  var arc = d3.svg.arc()
+				  .outerRadius(function(d){ 
+				  	var outerR = r + sqrtScalePop(d.data.population);
+				  	return outerR.toFixed(1);
+				  })
+				  .innerRadius(r);
+
+				  var g = svg.append("g").attr("transform", "translate("+w/2+","+h/2+") rotate(-180)");
+
+				  g.transition().duration(animTime).attr("transform", "translate("+w/2+","+h/2+")");
+				  
+				  
+				  var bars = g.selectAll("g")
+				    .data(pie(data)).enter()
+				    .append("g")
+				    .attr("class", "bar")
+				    .attr("id", function(d,i){ return i });
+				   
+				  bars.append("path")
+				    .attr("d", arc_zero)
+				    .attr("stroke", "#FFF")
+				    .attr("fill", function(d){ return colorScale(d.data.continent) })
+				    .transition().duration(animTime)
+				    .attr("d", arc);
+
+					    //text info
+					    var circle = g.append("circle")
+					    .attr("fill", "#333")
+					    .attr("r", 1)
+					    .transition().duration(animTime)
+					    .attr("r", r-5);
+
+					    var title_default = "Oils Trade Data 2014";
+
+					    var title = g.append("text")
+					    .text(title_default)
+					    .attr("xml:space", "preserve")
+					    .attr("text-anchor", "middle")
+					    .attr("font-family", "Roboto, sans-serif")
+					    .attr("font-size", size/70+"px")
+					    .attr("fill", "white");
+
+					    var subtitle_default = data.length + " Countries - Imports";
+
+					    var subtitle = g.append("text")
+					    .text(subtitle_default)
+					    .attr("xml:space", "preserve")
+					    .attr("text-anchor", "middle")
+					    .attr("font-family", "Roboto, sans-serif")
+					    .attr("font-size", size/63+"px")
+					    .attr("fill", "white")
+					    .attr("y", size/40);
+
+					    var subtitle2 = g.append("text")
+					    .text("")
+					    .attr("xml:space", "preserve")
+					    .attr("text-anchor", "middle")
+					    .attr("font-family", "Roboto, sans-serif")
+					    .attr("font-size", size/63+"px")
+					    .attr("fill", "white")
+					    .attr("y", size/20);
+
+					    var subtitle_continent = g.append("text")
+					    .text("")
+					    .attr("xml:space", "preserve")
+					    .attr("text-anchor", "middle")
+					    .attr("font-family", "Lato, sans-serif")
+					    .attr("font-size", size/63+"px")
+					    .attr("fill", "white")
+					    .attr("y", size/10);
+
+					    bars.on("mouseover", function(d) {  
+					    	title.text(d.data.name);
+
+					    	subtitle.text(d.data.importValue + " $US");
+						    subtitle2.text("Population: " + d.data.population);
+
+						    subtitle_continent.text(conts[d.data.continent]);  
+						});
+
+				    	bars.on("mouseout",  function(d){  title.text(title_default);
+			    		subtitle.text(subtitle_default);
+			    		subtitle2.text("");
+			    		subtitle_continent.text("");  });
+
+				    	bars.on("click", function(d){  window.open(d.data.url, "_blank")  });
+
+				    }
+
+				    function visualizeExportData() {
+				    	// sort data filter = import value
+					sortData(data, "exportValue");
+
+
+					var pad = 10;
+				var h = window.innerHeight-pad;
+				var w = (window.innerWidth-pad)/2;
+				var size = 680;
+				var r = size/8;
+				
+				var animTime = 1500;
+
+				var sqrtScalePop = d3.scale.sqrt()
+			    	.domain([0, d3.max(data, function(d){ return d.population })])
+			    	.range([0, r*2]);
+
+			    var colorScale = d3.scale.ordinal()
+				  .domain(continentsArray)
+				  .range(colorsArray);
+
+				  //bars
+				  var svg = d3.select("#export_pie").append("svg").attr("height", h).attr("width", w)
+				  .style("margin", pad/2+"px 0 0 "+pad/2+"px")
+				  .attr("align","center");
+
+				  var pie = d3.layout.pie()
+				    .value(function(d) { return d.exportValue; })
+				    .sort(null);
+
+				  var arc_zero = d3.svg.arc().outerRadius(r-10).innerRadius(r-20);
+				  
+				  var arc = d3.svg.arc()
+				  .outerRadius(function(d){ 
+				  	var outerR = r + sqrtScalePop(d.data.population);
+				  	return outerR.toFixed(1);
+				  })
+				  .innerRadius(r);
+
+				  var g = svg.append("g").attr("transform", "translate("+w/2+","+h/2+") rotate(-180)");
+
+				  g.transition().duration(animTime).attr("transform", "translate("+w/2+","+h/2+")");
+				  
+				  
+				  var bars = g.selectAll("g")
+				    .data(pie(data)).enter()
+				    .append("g")
+				    .attr("class", "bar")
+				    .attr("id", function(d,i){ return i });
+				   
+				  bars.append("path")
+				    .attr("d", arc_zero)
+				    .attr("stroke", "#FFF")
+				    .attr("fill", function(d){ return colorScale(d.data.continent) })
+				    .transition().duration(animTime)
+				    .attr("d", arc);
+
+					    //text info
+					    var circle = g.append("circle")
+					    .attr("fill", "#333")
+					    .attr("r", 1)
+					    .transition().duration(animTime)
+					    .attr("r", r-5);
+
+					    var title_default = "Oils Trade Data 2014";
+
+					    var title = g.append("text")
+					    .text(title_default)
+					    .attr("xml:space", "preserve")
+					    .attr("text-anchor", "middle")
+					    .attr("font-family", "Roboto, sans-serif")
+					    .attr("font-size", size/70+"px")
+					    .attr("fill", "white");
+
+					    var subtitle_default = data.length + " Countries - Exports";
+
+					    var subtitle = g.append("text")
+					    .text(subtitle_default)
+					    .attr("xml:space", "preserve")
+					    .attr("text-anchor", "middle")
+					    .attr("font-family", "Roboto, sans-serif")
+					    .attr("font-size", size/63+"px")
+					    .attr("fill", "white")
+					    .attr("y", size/40);
+
+					    var subtitle2 = g.append("text")
+					    .text("")
+					    .attr("xml:space", "preserve")
+					    .attr("text-anchor", "middle")
+					    .attr("font-family", "Roboto, sans-serif")
+					    .attr("font-size", size/63+"px")
+					    .attr("fill", "white")
+					    .attr("y", size/20);
+
+					    var subtitle_continent = g.append("text")
+					    .text("")
+					    .attr("xml:space", "preserve")
+					    .attr("text-anchor", "middle")
+					    .attr("font-family", "Lato, sans-serif")
+					    .attr("font-size", size/63+"px")
+					    .attr("fill", "white")
+					    .attr("y", size/10);
+
+					    bars.on("mouseover", function(d) {  
+					    	title.text(d.data.name);
+
+					    	subtitle.text(d.data.exportValue + " $US");
+						    subtitle2.text("Population: " + d.data.population);
+
+						    subtitle_continent.text(conts[d.data.continent]);  
+						});
+
+				    	bars.on("mouseout",  function(d){  title.text(title_default);
+			    		subtitle.text(subtitle_default);
+			    		subtitle2.text("");
+			    		subtitle_continent.text("");  });
+
+				    	bars.on("click", function(d){  window.open(d.data.url, "_blank")  });
+				    }
+
+
+					    function sortData(input, filter){
+						  //var filter = "importValue";
+						  
+						  //sort by filter
+						  input.sort(sortProperty(filter));
+
+						  //break countries into continents, second sort category 
+						  var continents = d3.nest()
+						    .sortValues(sortProperty(filter))
+						    .key(function(d) { return d.continent; })
+						    .entries(data);
+
+
+						    //sort continent by total filter
+						  continents.forEach(function(continent){
+						    continent.importValue = 0;
+						    continent.values.forEach(function(member){
+						    	console.log("Sorted by continent, member is: " + member.name + ", " + member.continent);
+						      continent.importValue += member.importValue;
+						    })
+						  });
+						  continents.sort(sortProperty(filter));
+						  
+						  return flattenTree(continents);
+						  
+						}
+
+					    function flattenTree(tree){
+					    	var arr = [];
+					    	tree.forEach(function(e,i){
+					    		arr.push(e.values);
+					    	});
+
+					    	if (arr[0] instanceof Array) {
+					    		return d3.merge(arr);
+					    	}
+					    	else {
+					    		return arr;
+					    	}
+					    }
+
+					    function sortProperty(property){
+					    	//sorted in descending order - max to min value
+						  return (function(a, b) {
+						            if (a[property] < b[property])
+						              return 1;
+						            else if (a[property] > b[property])
+						              return -1;
+						            return 0;
+						          });
+						}
+
+
+					    function onWindowsResize() {
+					    	d3.select("svg").remove();
+					    	visualize();
+					    }
+
+					    function arcTween(a) {
+						  var i = d3.interpolate(this._current, a);
+						  this._current = i(0);
+						  return function(t) {
+						    return arc(i(t));
+						  };
+						}
+
+						/*
+						* For Testing Purposes
+						*/
+					    function visualize1() {
+					    	var defaultCountries = ["United Kingdom", "Norway", "Qatar", "Canada", "USA", "China", "Germany", "Brazil", "Isarel", "Oman", "South Africa", "Australia"];
+					    	defaultCountries.sort();
+
+					    	for (var i=0; i<defaultCountries.length; i++) {
+					    		selectData(defaultCountries[i]);
+					    	}
+
+					    	var x = d3.scale.linear().domain([d3.min(selectedImports), d3.max(selectedImports)]).range([1, 500]);
+
+					    	d3.select(".chart")
+					    	.selectAll("div")
+					    	.data(selectedImports)
+					    	.enter().append("div")
+					    	.style("width", function(d) { return x(d) + "px"; })
+					    	.text(function(d) { return d; });
+
+					    	d3.select(".y-axis").selectAll("div").data(selectedCountries).enter().append("div").text(function(d) { return d; });
+
+					    }
+
+
+
+					    </script>
+					</head>
+					<body>
+						<div class="title">
+							<h1> Oil Products Trade </h1>
+							<h2> Information Visualization </h2>
+							<p>The unit of Trade Value is US$</p>
+						</div>
+						<div class="container">
+						<div clas="row">
+							<div class="col-md-6">
+								<div id="import_pie" align="center"></div>
+							</div>
+							<div class="col-md-6">
+								<div id="export_pie" align="center"></div>	
+							</div>
+						</div>
+					</div>
+						<div class="chart"></div>
+						<div class="y-axis"></div>
+						
+
+					</body>
+					</html>
