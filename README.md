@@ -1,4 +1,3 @@
-
 World Oils Trade Data Visualization Using D3.js.
 A student project for "Explorative Information Visualization", Aalto University, Finland.
 
